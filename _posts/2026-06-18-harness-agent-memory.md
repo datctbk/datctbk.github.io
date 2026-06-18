@@ -1,7 +1,7 @@
 # I. Agent Memory: How Agents Remember and Forget
 ## (Cách các Agent ghi nhớ và lãng quên)
 
-Bài nói chuyện giải thích về cấu trúc bộ nhớ của một trợ lý AI (AI Agent).
+Giải thích về cấu trúc bộ nhớ của một trợ lý AI (AI Agent).
 
 Bản chất của mô hình ngôn ngữ lớn (LLM) là **không tự thay đổi trọng số** hay **tự ghi nhớ** sau khi cửa sổ ngữ cảnh (context window) kết thúc. Vì vậy, để Agent có thể "nhớ", lập trình viên cần xây dựng một **hệ thống kiến trúc bộ nhớ** bao bọc xung quanh mô hình (gọi là *harness primitives*).
 
