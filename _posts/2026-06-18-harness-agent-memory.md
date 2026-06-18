@@ -203,3 +203,5 @@ Hiệu quả của Agent phụ thuộc rất lớn vào khả năng:
 - Truy xuất đúng thông tin
 - Cập nhật kiến thức mới
 - Và quan trọng không kém: **biết quên những gì không còn cần thiết**
+
+https://www.youtube.com/watch?v=PxuMqeIqCEo&t=64s
