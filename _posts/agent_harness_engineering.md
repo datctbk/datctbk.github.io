@@ -140,7 +140,43 @@ The standardization of interaction protocols will also be a primary objective, s
 
 Finally, the field is trending toward a higher degree of deterministic control to ensure agent safety. This includes a shift from high-level prompt-based constraints to system-level enforcement, potentially utilizing kernel-based mechanisms to prevent agents from bypassing established policy boundaries [88]. Such advancements aim to provide the high-assurance execution environments required for autonomous agents to operate reliably in high-stakes and regulated industries.
 
-
+mindmap
+  root((Agent Harness Engineering))
+    Overview & Paradigm
+      Formula: "Agent = Model + Harness"
+      Model as CPU: Non-deterministic reasoning chip
+      Harness as OS: "Provides RAM, Storage, I/O, Tools, Memory"
+      Scope Shift: From text Prompting to Runtime Architecture
+    Technical Architecture
+      Distributed System Design
+        Saga Pattern: Event-driven workflows to prevent state loss
+        Decoupled Brain: Separation of execution state from LLM
+        Kernel-Level Security: eBPF for deterministic runtime enforcement
+      Core Iterative Loop
+        ReAct Framework: Separate Reasoning and Action phases
+        Autonomous Self-Correction: Reflection loops limited by Reasoning Gap
+        Evaluation Sub-routines: Automated LLM Judges vs. Programmatic checks
+      Key Components
+        Tool Interfaces: Stable, verifiable identifiers to solve Edit Tool Problem
+        Memory Management: Preserving causal dependencies in long horizons
+        Governance Layer: "Observability, cost control, TTL, and GRC policies"
+    Key Innovations & Features
+      Harness-First Search
+        Optimizing environment parameters over model parameters
+      Advanced Training & Structure
+        Process-level Supervision: Rewarding the reasoning trajectory
+        Hierarchical Grids: Spatial curricula to reduce error compounding
+      Evolution
+        "Prompting Era -> Orchestration Era -> Policy-Driven Runtime Era"
+    Challenges & Frontiers
+      Known Vulnerabilities
+        Non-determinism: High latency and opaque tracking
+        Runaway Costs: Risk of infinite loops in autonomous cycles
+        Text Reproduction: Brittle content modification without exact IDs
+      Future Directions
+        Kernel-level Sandboxing: Hardware isolation for enterprise security
+        Standardization: "A2A Agent-to-Agent communication protocols"
+        Quantitative Fusion: Merging price/non-price data with ML models
 ---
 
 ## References
@@ -279,40 +315,4 @@ Finally, the field is trending toward a higher degree of deterministic control t
 *Sources: 128 references collected*
 
 
-mindmap
-  root((Agent Harness Engineering))
-    Overview & Paradigm
-      Formula: "Agent = Model + Harness"
-      Model as CPU: Non-deterministic reasoning chip
-      Harness as OS: "Provides RAM, Storage, I/O, Tools, Memory"
-      Scope Shift: From text Prompting to Runtime Architecture
-    Technical Architecture
-      Distributed System Design
-        Saga Pattern: Event-driven workflows to prevent state loss
-        Decoupled Brain: Separation of execution state from LLM
-        Kernel-Level Security: eBPF for deterministic runtime enforcement
-      Core Iterative Loop
-        ReAct Framework: Separate Reasoning and Action phases
-        Autonomous Self-Correction: Reflection loops limited by Reasoning Gap
-        Evaluation Sub-routines: Automated LLM Judges vs. Programmatic checks
-      Key Components
-        Tool Interfaces: Stable, verifiable identifiers to solve Edit Tool Problem
-        Memory Management: Preserving causal dependencies in long horizons
-        Governance Layer: "Observability, cost control, TTL, and GRC policies"
-    Key Innovations & Features
-      Harness-First Search
-        Optimizing environment parameters over model parameters
-      Advanced Training & Structure
-        Process-level Supervision: Rewarding the reasoning trajectory
-        Hierarchical Grids: Spatial curricula to reduce error compounding
-      Evolution
-        "Prompting Era -> Orchestration Era -> Policy-Driven Runtime Era"
-    Challenges & Frontiers
-      Known Vulnerabilities
-        Non-determinism: High latency and opaque tracking
-        Runaway Costs: Risk of infinite loops in autonomous cycles
-        Text Reproduction: Brittle content modification without exact IDs
-      Future Directions
-        Kernel-level Sandboxing: Hardware isolation for enterprise security
-        Standardization: "A2A Agent-to-Agent communication protocols"
-        Quantitative Fusion: Merging price/non-price data with ML models
+
