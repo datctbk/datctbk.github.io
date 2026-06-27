@@ -178,6 +178,7 @@ mindmap
         Standardization: "A2A Agent-to-Agent communication protocols"
         Quantitative Fusion: Merging price/non-price data with ML models
 ---
+<img width="639" height="373" alt="image" src="https://github.com/user-attachments/assets/299e6297-b2ee-48ad-868f-a2fb6dbb3caa" />
 
 ## References
 
